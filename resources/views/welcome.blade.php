@@ -98,13 +98,13 @@
                                             <div class="row">
                                                 <div class="col-sm-6">
                                                     <div class="counter-box">
-                                                        <span class="count-number">15</span><!--/.count-number-->
+                                                        <span class="count-number">25</span><!--/.count-number-->
                                                         Projects Completed
                                                     </div><!--/.counter-box-->
                                                 </div><!--/.col-->
                                                 <div class="col-sm-6">
                                                     <div class="counter-box">
-                                                        <span class="count-number">13</span><!--/.count-number-->
+                                                        <span class="count-number">17</span><!--/.count-number-->
                                                         Happy Clients
                                                     </div><!--/.counter-box-->
                                                 </div><!--/.col-->
@@ -116,7 +116,7 @@
                                                 {{--</div><!--/.col-->--}}
                                                 <div class="col-sm-6">
                                                     <div class="counter-box">
-                                                        Over<span class="count-number">10000</span><!--/.count-number-->
+                                                        Over<span class="count-number">100000</span><!--/.count-number-->
                                                         Lines of code
                                                     </div><!--/.counter-box-->
                                                 </div><!--/.col-->
@@ -155,7 +155,19 @@
                                 <div class="col-lg-6">
                                     <div class="skill-bar">
                                         <strong class="skill-label">C#</strong>
-                                        <div class="progress-bar-value"><span class="progress-value" style="width:75%"><em>75%</em></span></div>
+                                        <div class="progress-bar-value"><span class="progress-value" style="width:85%"><em>85%</em></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="skill-bar">
+                                        <strong class="skill-label">Node-js</strong>
+                                        <div class="progress-bar-value"><span class="progress-value" style="width:85%"><em>85%</em></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="skill-bar">
+                                        <strong class="skill-label">React-js</strong>
+                                        <div class="progress-bar-value"><span class="progress-value" style="width:85%"><em>85%</em></span></div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -190,10 +202,25 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="skill-bar">
-                                        <strong class="skill-label">Node</strong>
+                                        <strong class="skill-label">MySQL</strong>
                                         <div class="progress-bar-value"><span class="progress-value" style="width:85%"><em>85%</em></span></div>
                                     </div>
                                 </div>
+
+                                <div class="col-lg-6">
+                                    <div class="skill-bar">
+                                        <strong class="skill-label">Linq</strong>
+                                        <div class="progress-bar-value"><span class="progress-value" style="width:85%"><em>85%</em></span></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="skill-bar">
+                                        <strong class="skill-label">Reporting</strong>
+                                        <div class="progress-bar-value"><span class="progress-value" style="width:85%"><em>85%</em></span></div>
+                                    </div>
+                                </div>
+
                                 <div class="col-lg-6">
                                     <div class="skill-bar">
                                         <strong class="skill-label">PHP</strong>
@@ -403,6 +430,14 @@
                                     </a><!--/.gallery-box-->
                                 </div><!--/.item-->
                                 <div class="item animate" data-animate="fadeInUp">
+                                    <a href="/project/LaspotechPremier" class="gallery-box">
+                                        <figure class="gallery-img"><img src="/images/LaspotechPremier/image1.jpg" alt=""></figure>
+                                        <div class="gallery-overlay">
+                                            <h4>Laspotech Premier ERP</h4>
+                                        </div><!--/.gallery-overlay-->
+                                    </a><!--/.gallery-box-->
+                                </div><!--/.item-->
+                                <div class="item animate" data-animate="fadeInUp">
                                     <a href="/project/OGSADC" class="gallery-box">
                                         <figure class="gallery-img"><img src="/images/OGSADC/image1.jpg" alt=""></figure>
                                         <div class="gallery-overlay">
@@ -412,10 +447,28 @@
                                 </div><!--/.item-->
 
                                 <div class="item animate" data-animate="fadeInUp">
+                                    <a href="/project/SafeCourierLogistics" class="gallery-box">
+                                        <figure class="gallery-img"><img src="/images/SafeCourierLogistics/image1.jpg" alt=""></figure>
+                                        <div class="gallery-overlay">
+                                            <h4>Safe Courier Logistics</h4>
+                                        </div><!--/.gallery-overlay-->
+                                    </a><!--/.gallery-box-->
+                                </div><!--/.item-->
+
+                                <div class="item animate" data-animate="fadeInUp">
                                     <a href="/project/HotelWebsite" class="gallery-box">
                                         <figure class="gallery-img"><img src="/images/TheHome/image1.jpg" alt=""></figure>
                                         <div class="gallery-overlay">
                                             <h4>The Home Hotel</h4>
+                                        </div><!--/.gallery-overlay-->
+                                    </a><!--/.gallery-box-->
+                                </div><!--/.item-->
+
+                                <div class="item animate" data-animate="fadeInUp">
+                                    <a href="/project/UnilagPremier" class="gallery-box">
+                                        <figure class="gallery-img"><img src="/images/UnilagPremier/image1.jpg" alt=""></figure>
+                                        <div class="gallery-overlay">
+                                            <h4>Unilag Premier ERP</h4>
                                         </div><!--/.gallery-overlay-->
                                     </a><!--/.gallery-box-->
                                 </div><!--/.item-->

@@ -18,6 +18,36 @@ class HomeController extends Controller
             'Client_name' => 'Timothy'
         ];
 
+        $UnilagPremier = [
+            'tag' => 'UnilagPremier',
+            'name' => 'Premier for University of Lagos',
+            'details' => 'An ERP (Enterprise resource planning) for the University of Lagos to manage the activities in the university',
+            'Skills' => 'C#, HTML and CSS, Bootstrap, mySQL, Report Designer, Report Definition Language Client Side(RDLC)',
+            'Project-Type' => 'Enterprise',
+            'Url' => 'Not available to the public (bitbucket)',
+            'Client_name' => 'Unilag'
+        ];
+
+        $LaspotechPremier = [
+            'tag' => 'LaspotechPremier',
+            'name' => 'Premier for Lagos state polytechnic',
+            'details' => 'An ERP (Enterprise resource planning) for the Lagos state polytechnic to manage the activities in the university',
+            'Skills' => 'C#, HTML and CSS, Bootstrap, mySQL, Report Designer, Report Definition Language Client Side(RDLC)',
+            'Project-Type' => 'Enterprise',
+            'Url' => 'Not available to the public (bitbucket)',
+            'Client_name' => 'Laspotech'
+        ];
+
+        $SafeCourierLogistics = [
+            'tag' => 'SafeCourierLogistics',
+            'name' => 'Everything 10k and below',
+            'details' => 'An delivery/ Logistics service',
+            'Skills' => 'HTML and CSS, Design, Wordpress, mySQL',
+            'Project-Type' => 'Client',
+            'Client_name' => 'SafeCourier co.',
+            'Url' => 'https://safedepositcourierlogistics.com/'
+        ];
+
         $HotelAdmin = [
             'tag' => 'TheHomeApp',
             'name' => 'Hotel System',
@@ -108,6 +138,18 @@ class HomeController extends Controller
 
         if($name == 'HotelWebsite'){
             return view('project-details')->with('data', $HotelWebsite);
+        }
+
+        if($name == 'LaspotechPremier'){
+            return view('project-details')->with('data', $LaspotechPremier);
+        }
+
+        if($name == 'UnilagPremier'){
+            return view('project-details')->with('data', $UnilagPremier);
+        }
+
+        if($name == 'SafeCourierLogistics'){
+            return view('project-details')->with('data', $SafeCourierLogistics);
         }
 
         if($name == 'OGSADC'){
