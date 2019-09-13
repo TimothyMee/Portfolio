@@ -11,9 +11,20 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/project/{name}', 'HomeController@fetchProject');
+// Route::get('/project/{name}', 'HomeController@fetchProject');
 
+
+// Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/create-books', 'BookController@index');
+Route::post('/create-book', 'BookController@index')->name('create-book');
